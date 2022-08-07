@@ -1,0 +1,11 @@
+<div class="card m-2" style="width: 18rem">
+  <div class="card-body">
+    <h5 class="card-title">{{ actualProfile.name }}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{ actualProfile.lastName }}</h6>
+    <p class="card-text">
+      {{ actualProfile.description }}
+    </p>
+  </div>
+  <a routerLink="photo" type="button" class="btn btn-warning">Show photo</a>
+</div>
+<router-outlet></router-outlet>
